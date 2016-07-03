@@ -33,9 +33,13 @@ namespace nikokkinos.AllJoynComponent
         {
             if (device is LightClient)
             {
-                LifxLamp.LightClient = (LightClient)device;
+                if (device.DeviceId == "") // here add your Device ID from your lifx lamp
+                {
+                    LifxLamp.LightClient = (LightClient)device;
 
-                IsLifxLampPresent = true;
+                    IsLifxLampPresent = true;
+                }
+               
             }
         }
 
