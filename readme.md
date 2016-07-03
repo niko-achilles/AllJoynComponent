@@ -1,7 +1,7 @@
 # AllJoyn-Lifx-Lamp-Component
 This project contains:
-- an AllJoyn Component that discovers a Lifx Lamp and an
-example App of controlling (on/off, color) a single Lifx Lamp.
+- an AllJoyn Component that discovers a Lamp and an
+example App of controlling (on/off, color) a single Lamp.
 
 - an AllJoyn Light App as an example of how to use the AllJoyn Component.
 
