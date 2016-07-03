@@ -15,7 +15,7 @@ The AllJoyn Light App Project uses a Flipview control , with pre-defined colored
 - white
 - no color (transparent)
 
-![A Figure of the App is shown here:] (https://github.com/niko-kokkinos/AllJoyn-Lifx-Lamp-Component/blob/master/nikokokkinos.AllJoynLightApp/AppImages/all.png)
+![A Figure of the App is shown here:] (https://github.com/niko-kokkinos/AllJoynComponent/blob/master/nikokokkinos.AllJoynLightApp/AppImages/all.png)
 
 By selecting the desired colored Lamp , the user can tap on it and the color
 of the Lamp will change in the room.
