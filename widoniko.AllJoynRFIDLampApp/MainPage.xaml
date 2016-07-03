@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="widoniko.AllJoynRFIDLampApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:widoniko.AllJoynRFIDLampApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Orientation="Vertical">
+            <TextBlock x:Name="messenger" Text="app started" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF828282" FontSize="48" />
+            <Button Content="Blue" Width="200" Click="blueButtonClicked"></Button>
+            <Button Content="Red" Width="200" Click="redButtonClicked"></Button>
+            <Button Content="Green" Width="200" Click="greenButtonClicked"></Button>
+            <Button Content="Yellow" Width="200" Click="yellowButtonClicked"></Button>
+            <Button Content="White" Width="200" Click="whiteButtonClicked"></Button>
+            <Rectangle x:Name="resultRect"></Rectangle>
+        </StackPanel>
+
+
+    </Grid>
+</Page>
