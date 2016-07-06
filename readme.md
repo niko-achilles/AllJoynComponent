@@ -34,13 +34,13 @@ For more information about the RFID chips , Raspeberry Pi and the App for readin
 
 # HACKATHON BONN - Bluetooth LE - iBeacon and Lifx Lamp
 A Version of the Beacon App in this Project are developed with Students at the [Bonn Hackathon Event] (http://hackathon.codeforbonn.de/) .  
-Since in was the first Contact with BLE Windows Advertisement Api we experimented with the functionality. On Github today you can find a full functional prototyp and working demo.  
+Since in was the first Contact with [BLE Windows Advertisement Api](https://msdn.microsoft.com/en-us/library/windows/apps/xaml/windows.devices.bluetooth.advertisement.aspx) we experimented with the functionality. On Github today you can find a full functional prototyp and working demo.  
 
-In order to reproduce the functionality of Beacons with AllJoyn capable Lamp , like Lifx, we used the followimng components:
-- iPhone with the App installed Estimote Beacons . The iPhone with the Beacon App installed has the Role of the Beacon, the Transmitter of Advertisement Packets in  the room. 
+In order to reproduce the functionality of Beacons with [AllJoyn](https://allseenalliance.org/framework) capable [Lamp](http://www.lifx.com/products/color-1000) , like [Lifx](http://www.lifx.com/products/color-1000), we used the followimng components:
+- iPhone with the App installed [Estimote Beacons](http://developer.estimote.com/) . The iPhone with the Beacon App installed has the Role of the Beacon, the Transmitter of Advertisement Packets in  the room. 
 You get the [app for free here:](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=686915066&mt=8)
 A video of how to use the app can be [watched here:](https://community.estimote.com/hc/en-us/articles/200908836-How-to-turn-my-iPhone-into-a-Virtual-Beacon-) 
 
 - Windows Surface Pro. This Device has the Role of the Receiver of advertisement packets from Beacon (iPhone Device with Estimote App) and the Role of the Consumer in Context of AllJoyn.
 
-- A Lifx Lamp Color 1000. It has the Role of the AllJoyn Producer. Implments the LSF Framework from Allseen Alliance.  
+- A [Lifx Lamp Color 1000](http://www.lifx.com/products/color-1000). It has the Role of the [AllJoyn Producer](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/AllJoyn/ProducerExperiences). Implements the [LSF Framework](https://allseenalliance.org/announcement/allseen-alliance-launches-initiative-advance-smart-lighting) from [Allseen Alliance](https://allseenalliance.org/framework).  
