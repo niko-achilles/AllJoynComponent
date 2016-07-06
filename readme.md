@@ -7,6 +7,9 @@ example App of controlling (on/off, color) a single Lamp.
 
 The AllJoynComponent Project has a relationship with the [dotMorten.AllJoyn.AllJoynClientLib] (https://github.com/dotMorten/AllJoynClientLib) Project.
 
+You have to provide the DeviceID of your lamp in order to discover the lamp that you want to control
+Add the string in line 36 of file [AllJoynDiscoveryService:] (https://github.com/niko-kokkinos/AllJoynComponent/blob/master/nikokkinos.AllJoynComponent/AllJoynDiscoveryService.cs) 
+
 The AllJoyn Light App Project uses a Flipview control , with pre-defined colored lamps
 - red
 - green
