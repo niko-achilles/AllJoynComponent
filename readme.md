@@ -30,3 +30,18 @@ A Version of the Light App Example and the AllJoyn Component in this Project are
 For more information about the RFID chips , Raspeberry Pi and the App for reading RFID chip data and control of the lifx lamp via AllJoyn  can be foud on [Wido Wirsam Github site](https://github.com/intui/RFID_Lamp_Demo) 
 
 #### A Video Demonstration during the Event can be [found here](https://twitter.com/wido_w/status/749220061647429632)
+
+
+# HACKATHON BONN - Bluetooth LE - iBeacon and Lifx Lamp
+A Version of the Beacon App in this Project are developed with Students at the [Bonn Hackathon Event] (http://hackathon.codeforbonn.de/) .  
+Since in was the first Contact with BLE Windows Advertisement Api we experimented with the functionality. On Github today you can find a full functional prototyp and working demo.  
+
+In order to reproduce the functionality of Beacons with AllJoyn capable Lamp , like Lifx, we used the followimng components:
+1. iPhone with the App installed Estimote Beacons . The iPhone with the Beacon App installed has the Role of the Beacon, the Transmitter of Advertisement Packets in  the room. 
+You get the [app for free here:](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=686915066&mt=8)
+A video of how to use the app can be [watched here:](https://community.estimote.com/hc/en-us/articles/200908836-How-to-turn-my-iPhone-into-a-Virtual-Beacon-) 
+
+2. Windows Surface Pro. This Device has the Role of the Receiver of advertisement packets from Beacon (iPhone Device with Estimote App) and the Role of the Consumer in Context of AllJoyn.
+
+3. A Lifx Lamp Color 1000. It has the Role of the AllJoyn Producer. Implments the LSF Framework from Allseen Alliance.  
+#### A Video Demonstration during the Event can be [found here](https://twitter.com/wido_w/status/749220061647429632)
