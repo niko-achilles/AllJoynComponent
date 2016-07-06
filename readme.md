@@ -1,8 +1,8 @@
 # AllJoyn-Lamp-Component
 This project contains:
-- an AllJoyn Component that discovers a Lamp and an
-example App of controlling (on/off, color) a single Lamp.
-
+- an AllJoyn Component that discovers a Lamp, an
+example App of controlling manually (on/off, color) vai a flipview control a single Lamp.
+and an Beacon Light App, which controls the Lamp autmatically (on/off) via Bluetooth LE proximity depending on a user's device relative to bluetooth LE beacon. 
 - an AllJoyn Light App as an example of how to use the AllJoyn Component.
 
 The AllJoynComponent Project has a relationship with the [dotMorten.AllJoyn.AllJoynClientLib] (https://github.com/dotMorten/AllJoynClientLib) Project.
