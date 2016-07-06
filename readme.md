@@ -49,7 +49,6 @@ A video of how to use the app can be [watched here](https://community.estimote.c
 - A [Lifx Lamp Color 1000](http://www.lifx.com/products/color-1000). It has the Role of the [AllJoyn Producer](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/AllJoyn/ProducerExperiences). 
 Implements the [LSF Framework](https://allseenalliance.org/announcement/allseen-alliance-launches-initiative-advance-smart-lighting) from [Allseen Alliance](https://allseenalliance.org/framework).  
 
-As an inspiration on how to use the App you can watch an example  video with almost the same functionality [here](https://www.youtube.com/watch?v=d6K9zkH9hw0)
+####As an inspiration on how to use the App you can watch an example  video with almost the same functionality [here](https://www.youtube.com/watch?v=d6K9zkH9hw0)
 
-If you want to uswe the Hue Lights , Microsoft already provider a sample app . Technologies used : Bluetooth LE , Hue Phillips, iBeacon. 
-Sample can be found [here](https://github.com/Microsoft/Windows-appsample-huelightcontroller)
+If you want to use the Hue Lights , Microsoft already provided a sample app . Technologies used : Bluetooth LE , Hue Phillips, iBeacon. Sample can be found [here](https://github.com/Microsoft/Windows-appsample-huelightcontroller)
