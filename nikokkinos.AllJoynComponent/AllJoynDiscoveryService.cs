@@ -27,13 +27,19 @@ namespace nikokkinos.AllJoynComponent
         internal AllJoynDiscoveryService()
         {
             this.DeviceManager.DeviceJoined += OnDeviceJoined;
+            this.DeviceManager.DeviceDropped += OnDeviceDropped;
+        }
+
+        private void OnDeviceDropped(object sender, DeviceClient device)
+        {
         }
 
         private void OnDeviceJoined(object sender, DeviceClient device)
         {
             if (device is LightClient)
             {
-                if (device.DeviceId == "") // here add your Device ID from your lifx lamp
+
+                if (device.DeviceId == "1563c35e2e8838047f8c8f7d0512e899") // here add your Device ID from your lifx lamp
                 {
                     LifxLamp.LightClient = (LightClient)device;
 

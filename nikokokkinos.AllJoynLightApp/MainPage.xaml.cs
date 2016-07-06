@@ -33,7 +33,7 @@ namespace nikokokkinos.AllJoynLightApp
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        nikokkinos.AllJoynComponent.AllJoynController controller;
+        private nikokkinos.AllJoynComponent.AllJoynController controller;
 
         private Windows.UI.Color WHITE = Windows.UI.Colors.White;
         private Windows.UI.Color RED = Windows.UI.Colors.Red;

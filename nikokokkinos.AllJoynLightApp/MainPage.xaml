@@ -13,7 +13,7 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Viewbox>
-            <FlipView Tapped="FlipView_Tapped" >
+            <FlipView x:Name="flipView" Tapped="FlipView_Tapped" >
                 <Canvas 
                   Width="220.281"
                   Height="320.3066"
