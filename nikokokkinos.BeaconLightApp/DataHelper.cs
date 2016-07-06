@@ -1,8 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// **************************************************************************** 
+// <author>Niko Kokkinos</author> 
+// <email>nik.kokkinos@outlook.com</email> 
+// <date>02.07.2016</date> 
+// <project>nikokokkinos.BeaconLightApp</project> 
+// <web>http://nikolaoskokkinos.wordpress.com/</web> 
+// ****************************************************************************
+
 using Windows.Storage.Streams;
 using Windows.Devices.Bluetooth.Advertisement;
 

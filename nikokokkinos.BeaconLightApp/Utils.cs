@@ -1,8 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿// **************************************************************************** 
+// <author>Niko Kokkinos</author> 
+// <email>nik.kokkinos@outlook.com</email> 
+// <date>02.07.2016</date> 
+// <project>nikokokkinos.BeaconLightApp</project> 
+// <web>http://nikolaoskokkinos.wordpress.com/</web> 
+// ****************************************************************************
+
+using System;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace nikokokkinos.BeaconLightApp
 {

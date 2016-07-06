@@ -1,4 +1,12 @@
-﻿using nikokkinos.AllJoynComponent;
+﻿// **************************************************************************** 
+// <author>Niko Kokkinos</author> 
+// <email>nik.kokkinos@outlook.com</email> 
+// <date>02.07.2016</date> 
+// <project>nikokokkinos.BeaconLightApp</project> 
+// <web>http://nikolaoskokkinos.wordpress.com/</web> 
+// ****************************************************************************
+
+using nikokkinos.AllJoynComponent;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
