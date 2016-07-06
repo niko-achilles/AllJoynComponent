@@ -1,11 +1,12 @@
 # AllJoyn-Lamp-Component
 This project contains:
-- an AllJoyn Component that discovers a Lamp, an
-example App of controlling manually (on/off, color) vai a flipview control a single Lamp.
-and an Beacon Light App, which controls the Lamp autmatically (on/off) via Bluetooth LE proximity depending on a user's device relative to bluetooth LE beacon. 
-- an AllJoyn Light App as an example of how to use the AllJoyn Component.
+- an AllJoyn Component that discovers a Lifx Lamp via AllJoyn (implemnts LSF Framework by AllJoyn),
+- an Beacon Light App which uses the AllJoyn Component above , which controls the Lifx Lamp automatically (on/off) via Bluetooth LE proximity depending on a user's device relative to bluetooth LE beacon. 
+- an AllJoyn Light App as an example of how to use the AllJoyn Component ( control manually (on/off, color) via a flipview control a single Lifx Lamp.)
 
 The AllJoynComponent Project has a relationship with the [dotMorten.AllJoyn.AllJoynClientLib] (https://github.com/dotMorten/AllJoynClientLib) Project.
+
+The Beacon App uses the AllJoyn Componnet and the [Bluetooth Advertisement Apis of Windows 10 - we can start with the samples here or read the code of my app.](http://go.microsoft.com/fwlink/p/?LinkId=619990) .
 
 You have to provide the DeviceID of your lamp in order to discover the lamp that you want to control
 Add the string in line 36 of file [AllJoynDiscoveryService:] (https://github.com/niko-kokkinos/AllJoynComponent/blob/master/nikokkinos.AllJoynComponent/AllJoynDiscoveryService.cs) 
