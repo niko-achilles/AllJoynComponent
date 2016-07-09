@@ -44,12 +44,10 @@ like [Lifx](http://www.lifx.com/products/color-1000), we used the followimng com
 You get the [app for free here](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=686915066&mt=8)
 A video of how to use the app can be [watched here](https://community.estimote.com/hc/en-us/articles/200908836-How-to-turn-my-iPhone-into-a-Virtual-Beacon-) 
 
-- Windows Surface Pro. This Device has the Role of the Receiver of advertisement packets from Beacon (iPhone Device with Estimote App) and the Role of the Consumer in Context of AllJoyn.
+- Windows Surface Pro. This Device has the Role of the Receiver of advertisement packets from Beacon (iPhone Device with Estimote App) and the Role of the [Consumer in Context of AllJoyn](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/AllJoyn/ConsumerExperiences).
 
 - A [Lifx Lamp Color 1000](http://www.lifx.com/products/color-1000). It has the Role of the [AllJoyn Producer](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/AllJoyn/ProducerExperiences). 
 Implements the [LSF Framework](https://allseenalliance.org/announcement/allseen-alliance-launches-initiative-advance-smart-lighting) from [Allseen Alliance](https://allseenalliance.org/framework).  
 
-As an inspiration on how to use the App you can watch an example  video with almost the same functionality [here](https://www.youtube.com/watch?v=d6K9zkH9hw0)
 
-If you want to uswe the Hue Lights , Microsoft already provider a sample app . Technologies used : Bluetooth LE , Hue Phillips, iBeacon. 
-Sample can be found [here](https://github.com/Microsoft/Windows-appsample-huelightcontroller)
+If you want to use the Hue Lights , Microsoft already provided a sample app . Technologies used : Bluetooth LE , Hue Phillips, iBeacon. Sample can be found [here](https://github.com/Microsoft/Windows-appsample-huelightcontroller)
