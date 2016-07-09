@@ -14,7 +14,7 @@ namespace nikokkinos.AllJoynComponent
     class AllJoynDiscoveryService
     {
         internal bool IsLifxLampPresent { get; private set; }
-        internal LifxLamp LifxLamp { get; private set; } = new LifxLamp();
+        internal LifxLamp LifxLamp { get; private set; }
    
         private DeviceManager _deviceManager;
 
@@ -32,6 +32,13 @@ namespace nikokkinos.AllJoynComponent
 
         private void OnDeviceDropped(object sender, DeviceClient device)
         {
+            if (device is LightClient)
+            {
+                if ((LightClient)device == LifxLamp.LightClient)
+                {
+                    //set the referense of your Lamp to null here
+                }
+            }
         }
 
         private void OnDeviceJoined(object sender, DeviceClient device)
@@ -39,9 +46,9 @@ namespace nikokkinos.AllJoynComponent
             if (device is LightClient)
             {
 
-                if (device.DeviceId == "1563c35e2e8838047f8c8f7d0512e899") // here add your Device ID from your lifx lamp
+                if (device.DeviceId == "DEVICE ID OF YOUR LIFX LAMP") // here add your Device ID from your lifx lamp
                 {
-                    LifxLamp.LightClient = (LightClient)device;
+                    LifxLamp = new LifxLamp { LightClient = (LightClient)device };
 
                     IsLifxLampPresent = true;
                 }
