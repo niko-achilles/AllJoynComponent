@@ -1,8 +1,8 @@
 # AllJoyn-Lamp-Component
 This project contains:
 - an AllJoyn Component that discovers a Lifx Lamp via AllJoyn (implemnts LSF Framework by AllJoyn),
-- an Beacon Light App which uses the AllJoyn Component above , which controls the Lifx Lamp automatically (on/off) via Bluetooth LE proximity depending on a user's device relative to bluetooth LE beacon. 
 - an AllJoyn Light App as an example of how to use the AllJoyn Component ( control manually (on/off, color) via a flipview control a single Lifx Lamp.)
+- a Beacon Light App which uses the AllJoyn Component above and controls the Lifx Lamp automatically (on/off) via Bluetooth LE proximity depending on a user's device relative to bluetooth LE beacon. 
 
 The AllJoynComponent Project has a relationship with the [dotMorten.AllJoyn.AllJoynClientLib] (https://github.com/dotMorten/AllJoynClientLib) Project.
 
