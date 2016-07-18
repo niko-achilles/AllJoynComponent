@@ -9,7 +9,7 @@ The AllJoynComponent Project has a relationship with the [dotMorten.AllJoyn.AllJ
 The Beacon App uses the AllJoyn Componnet and the [Bluetooth Advertisement Apis of Windows 10 - we can start with the samples here or read the code of my app.](http://go.microsoft.com/fwlink/p/?LinkId=619990) .
 
 You have to provide the DeviceID of your lamp in order to discover the lamp that you want to control
-Add the string in line 36 of file [AllJoynDiscoveryService:] (https://github.com/niko-kokkinos/AllJoynComponent/blob/master/nikokkinos.AllJoynComponent/AllJoynDiscoveryService.cs) 
+Add the string in line 49 of file [AllJoynDiscoveryService:] (https://github.com/niko-kokkinos/AllJoynComponent/blob/master/nikokkinos.AllJoynComponent/AllJoynDiscoveryService.cs) 
 
 The AllJoyn Light App Project uses a Flipview control , with pre-defined colored lamps
 - red
